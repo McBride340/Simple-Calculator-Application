@@ -41,7 +41,7 @@ namespace Calculator
 
             //Ask the user to type the second number.
             //Ask the user to the user to choose an operator.
-            //If a non-numeric is entered add try/catch block to handle the exception.
+            //If a non numeric is entered add try/catch block to handle the exception.
             //Use a switch statement to do the calculations
             //Wait for the user to respond before closing.
 
