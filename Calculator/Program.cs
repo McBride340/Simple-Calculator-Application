@@ -25,7 +25,7 @@ namespace Calculator
             //*Hint* numInput1= ; numInput2= ; result = ;
             //String numbInput1 = "";
             
-            float numIniput1;
+            float numInput1;
             float numInput2;
             float result;
             String numbInput1;
