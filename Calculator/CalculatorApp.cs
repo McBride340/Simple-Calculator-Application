@@ -26,7 +26,26 @@ namespace Calculator
         {
             return a / b;
         }
+        
+        public float AddFloat(float a, float b)
+        {
+        	return a + b;
+        }
 
+        public float SubtractFloat(float a, float b)
+        {
+        	return a - b;
+        }
+
+       	public float MultiplyFloat(float a, float b)
+       	{
+       		return a * b;
+       	}
+
+       	public float DivideFloat(float a, float b)
+       	{
+       		return a / b;
+       	}
 
     }
 }
