@@ -37,12 +37,23 @@ namespace Calculator
             //*Hint*
             //Console.WriteLine("Type a number, and then press Enter: ");
             //inputNumb1 = Console.ReadLine();
+            
+            Console.WriteLine("Type a number, and then press Enter: ");
+            inputNumb1 = Console.ReadLine();
 
 
             //Ask the user to type the second number.
+            
+            Console.WriteLine("Type another number, and then press Enter: ");
+            inputNumb2 = Console.ReadLine();
+            
             //Ask the user to the user to choose an operator.
             //If a non numeric is entered add try/catch block to handle the exception.
+            
+            
             //Use a switch statement to do the calculations
+            
+            
             //Wait for the user to respond before closing.
 
 
