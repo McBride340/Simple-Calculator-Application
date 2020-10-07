@@ -28,7 +28,7 @@ namespace Calculator
             float numInput1;
             float numInput2;
             float result;
-            String numbInput1;
+            String numbInput1 = "";
 
 
 
@@ -50,8 +50,16 @@ namespace Calculator
             //Ask the user to the user to choose an operator.
             //If a non numeric is entered add try/catch block to handle the exception.
             
+            Console.WriteLine("Type your opperator (+ - * /), and then press Enter: ");
+            numbInput1 = Console.ReadLine();
+            while(numbInput1 != "+" or numbInput1 != "-" or numbInput1 != "*" or numbInput1 != "/"){
+                Console.WriteLine("Error: Invalid input");
+                Console.WriteLine("Type your opperator (+ - * /), and then press Enter: ");
+                numbInput1 = Console.ReadLine();
+            }
             
             //Use a switch statement to do the calculations
+            
             
             
             //Wait for the user to respond before closing.
